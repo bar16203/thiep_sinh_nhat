@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#EFB0C9,#a2d2ff);
+}
+.anh{
+    width: 150px;
+    border-radius: 50%;
+}
+.anh-1,.anh-2,.anh-3,.anh-4{
+    width: 200px;
+    height: 150px;
+    margin: 25px auto;
+    background-image: url(images/anh2.jpg);
+    background-size: cover;
+}
+.anh-1:hover{
+    background-image: url(images/gif1.webp);
+}
+.anh-2:hover{
+    background-image: url(images/gif2.webp);
+}
+.anh-3:hover{
+    background-image: url(images/gif3.webp);
+}
+.anh-4:hover{
+    background-image: url(images/gif4.webp);
+}
